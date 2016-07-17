@@ -1,0 +1,23 @@
+{
+    "name": "kodcube/helpers",
+    "description": "Helper Functions,Objects for use with the KodCube Packages",
+    "keywords": [ "KodCube", "Helpers", "PHP" ],
+    "homepage": "https://github.com/kodcube/helpers",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steven Miles",
+            "email": "steve@kodcube.com",
+            "homepage": "https://www.kodcube.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "KodCube\\Helpers\\":"./KodCube/Helpers"
+        }
+    }
+}
